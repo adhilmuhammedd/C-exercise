@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int choice;
+    printf("1 for razi \n2 for nihal \n3 for sreejesh \n4 for adithyan \nenter your choice");
+    scanf("%d",&choice);
+    switch(choice){
+    case 1:
+        printf("you have selected razi");
+        break;
+    case 2:
+        printf("you have selected nihal");
+        break;
+    case 3:
+        printf("you have selected sreejesh");
+        break;
+    case 4:
+        printf("you have selected adithyan");
+        break;    
+    default:
+        printf("fool");
+    }
+    return 0;
+}
